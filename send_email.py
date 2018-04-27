@@ -41,4 +41,3 @@ def send_email(taskname, student_email, student_name, matric_no, filename, my_em
     smtp.sendmail(fromaddr, recipients, text)
     
     smtp.quit()
-#De Zhang - 1/9/2017
