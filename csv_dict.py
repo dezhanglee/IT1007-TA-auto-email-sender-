@@ -17,5 +17,3 @@ def read_csv(csvfilename):
             dct[row[0]]=row[1:]
             
     return dct
-
-#De Zhang - 1/9/2017 
