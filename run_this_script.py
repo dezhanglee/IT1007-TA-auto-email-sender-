@@ -23,7 +23,7 @@ for fname in glob.glob(directory_name+'*.py'):
     
     matric_no=fname[14:23] #Assuming student adheres to file naming format
 
-    if (matric_no not in students): #if student names file wrongly or not in my group
+    if (matric_no not in students): #if student names file wrongly or not in class roster. 
         unable_to_send.append((fname, matric_no))
         continue
     
