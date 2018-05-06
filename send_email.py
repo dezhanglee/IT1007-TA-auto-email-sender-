@@ -17,8 +17,7 @@ def send_email(taskname, student_email, student_name, matric_no, filename, my_em
     msg['Subject'] = "[IT1007] {} - {}".format(taskname, matric_no) #change subject as required 
 
     #change body as required, {} will auto insert the student's name as per the csv file
-    body = "Hi {}, \n \nAttached is your graded {} with comments. \n \nPlease email me should you have any queries. \
-                \n \nBest regards,\nDe Zhang".format(student_name, taskname)
+    body = "Some message where student name = {}, task name = {}. Change accordingly.".format(student_name, taskname)
  
     msg.attach(MIMEText(body, 'plain'))
  
